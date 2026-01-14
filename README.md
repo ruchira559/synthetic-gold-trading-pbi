@@ -58,4 +58,4 @@ The data was modeled using a classic Star Schema to ensure query performance:
 3.  If prompted, update the Data Source settings to point to the CSV files in the `Data/` folder locally.
 
 ---
-*Created by [Your Name]*
+*Created by Ruchir Agrawal*
