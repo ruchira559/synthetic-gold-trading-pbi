@@ -3,7 +3,7 @@
 ### **Executive Summary**
 This Power BI project delivers a comprehensive analysis of a synthetic gold trading business. The dashboard monitors trading volume (inflow/outflow), profit margins, and inventory velocity across 5 branch locations. It is designed to help executive management identify high-performing regions and optimize stock distribution between Jewelry (18k/22k) and Bullion (24k).
 
-![Dashboard Preview](Images/dashboard-main.png)
+![Dashboard Preview](Images/dashboard_main.png)
 *(Note: Replace 'dashboard-main.png' with your actual filename if different)*
 
 ---
@@ -47,8 +47,6 @@ The data was modeled using a classic Star Schema to ensure query performance:
 * **Fact Tables**: `Transactions`, `Buybacks`
 * **Dimension Tables**: `Customers`, `Branches`, `GoldItems`, `Staff`, `Pricing`
 * **Relationships**: One-to-Many relationships established on ID columns.
-
-![Data Model](Images/data-model.png)
 
 ---
 
